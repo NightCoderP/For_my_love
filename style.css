@@ -20,6 +20,18 @@ body {
     perspective: 1000px;
 }
 
+.top-message {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+    color: white;
+    font-weight: bold;
+    z-index: 999;
+    text-shadow: 0 0 10px rgba(255,255,255,0.8);
+}
+
 .night {
     position: fixed;
     left: 50%;
